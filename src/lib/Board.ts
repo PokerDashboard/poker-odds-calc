@@ -2,7 +2,8 @@ import Table from "./Table";
 import Card from "./Card";
 import Player from "./Player";
 import Result from "./Result";
-import {clone, sampleSize} from "lodash";
+import clone from "lodash/clone";
+import sampleSize from "lodash/sampleSize";
 import {type as HandValueTypes} from "./HandValue/index";
 
 export default class Board {
