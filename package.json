@@ -29,7 +29,8 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "rm -rf dist/* && rm -rf dts/* && tsc",
-    "test": "mocha ./dist/test"
+    "test": "mocha ./dist/test",
+    "setup": "yarn link --link-folder ../pokerdashboard-links"
   },
   "repository": {
     "type": "git",
